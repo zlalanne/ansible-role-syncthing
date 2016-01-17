@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Zack Lalanne
+  description: Install Syncthing
+  license: MIT
+
+  min_ansible_version: 2.0
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+
+  galaxy_tags:
+    - syncthing
+
+dependencies: []

@@ -1,0 +1,17 @@
+---
+
+- name: Add release PGP keys
+  apt_key:
+    url=https://syncthing.net/release-key.txt
+  become: yes
+
+- name: Add syncthing repo
+  apt_repository:
+    repo='deb http://apt.syncthing.net/ syncthing release'
+    update_cache=yes
+  become: yes
+
+- name: Install syncthing
+  apt:
+    name=syncthing
+  sudo: yes
