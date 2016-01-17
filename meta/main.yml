@@ -1,7 +1,10 @@
+---
+dependencies: []
+
 galaxy_info:
   author: Zack Lalanne
   description: Install Syncthing
-  license: MIT
+  license: "license (MIT)"
 
   min_ansible_version: 2.0
 
@@ -12,5 +15,3 @@ galaxy_info:
 
   galaxy_tags:
     - syncthing
-
-dependencies: []
