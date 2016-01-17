@@ -14,4 +14,4 @@
 - name: Install syncthing
   apt:
     name=syncthing
-  sudo: yes
+  become: yes
